@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    background-color: rgb(180, 180, 180);
+    color: rgb(34, 34, 34);
+    text-align: center;
+}
+
+h1, h2 {
+    color: rgb(31, 60, 92);
+}
+
+p {
+    max-width: 700px;
+    margin: 15px auto;
+    text-align: justify;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.redes_sociais img {
+    width: 100px;
+    height: 100px;
+}
+
+.foto_perfil {
+    width: 300px;
+    border-radius: 50%;
+}
+table {
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+th {
+    background-color: rgb(173, 216, 230);
+}
